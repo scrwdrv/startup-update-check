@@ -1,6 +1,6 @@
 {
   "name": "startup-update-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check your custom CLI tool version with npm at startup and notify users if a newer version is published.",
   "main": "index.js",
   "scripts": {
