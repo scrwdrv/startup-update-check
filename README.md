@@ -15,7 +15,7 @@ import checkUpdate from 'startup-update-check';
 checkUpdate('./package.json').then((newerVersion) => {
     if (newerVersion) {
         //do your things
-    } else {
+    } else if (newerVersion === null) {
         //up to date
     }
 }).catch((err) => {
@@ -30,7 +30,7 @@ checkUpdate({
 }).then((newerVersion) => {
     if (newerVersion) {
         //do your things
-    } else {
+    } else if (newerVersion === null) {
         //up to date
     }
 }).catch((err) => {
