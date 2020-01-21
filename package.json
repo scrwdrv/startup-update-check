@@ -1,0 +1,34 @@
+{
+  "name": "startup-update-check",
+  "version": "1.0.0",
+  "description": "Check your custom CLI tool version with npm at startup and notify users if a newer version is published.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrwdrv/startup-update-check.git"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "version",
+    "npm",
+    "update",
+    "startup"
+  ],
+  "author": "scrwdrv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scrwdrv/startup-update-check/issues"
+  },
+  "homepage": "https://github.com/scrwdrv/startup-update-check#readme",
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "@types/semver": "^6.2.0"
+  },
+  "dependencies": {
+    "semver": "^7.1.1"
+  }
+}
